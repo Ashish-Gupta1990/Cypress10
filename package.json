@@ -1,0 +1,35 @@
+{
+  "name": "cypress_automation_ashish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/integration/stepDefinition/*.ts",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@cypress/webpack-preprocessor": "latest",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "cucumber-html-formatter": "^3.1.0",
+    "cypress": "^10.6.0",
+    "cypress-xpath": "^2.0.1",
+    "eslint-plugin-cypress": "^2.12.1",
+    "multiple-cucumber-html-reporter": "^1.18.0",
+    "node-xlsx": "^0.21.0",
+    "ts-loader": "latest",
+    "typescript": "latest"
+  }
+}

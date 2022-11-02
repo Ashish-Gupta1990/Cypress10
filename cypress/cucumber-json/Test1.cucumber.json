@@ -1,0 +1,58 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To test the logon form",
+    "line": 1,
+    "id": "to-test-the-logon-form",
+    "tags": [],
+    "uri": "Test1.feature",
+    "elements": [
+      {
+        "id": "to-test-the-logon-form;to-test-the-logon-form",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "To test the logon form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "The user visit url of the application",
+            "result": {
+              "status": "undefined",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "user",
+                      "email"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Ashish",
+                      "test@gmail.com"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 6,
+            "name": "The user enters all the details",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

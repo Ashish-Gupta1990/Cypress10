@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2016",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node"],
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "strict": true,
+      "baseUrl": "./"
+    },
+    "include": ["**/*.ts"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": true
+    }
+  }

@@ -1,0 +1,20 @@
+{
+    "HomePage":{
+        "txtUserName": "input[name='name']",
+        "txtEmail": "input[name='email']",
+        "txtPasswd" : "#exampleInputPassword1",
+        "drpGender" : "#exampleFormControlSelect1",
+        "rdbtnStudent" : "#inlineRadio1",
+        "rdbtnEmployed" : "#inlineRadio2",
+        "rdbbtnEnterpreneur": "#inlineRadio3",
+        "btnSubmit" : "input.btn.btn-success",
+        "txtUserName2": "input[name='name']:nth-child(2)",
+        "txttwowaybinddata": ":nth-child(4) > .ng-untouched",
+        "lblsuccess": "div[class*='alert-success']"
+        
+        
+    
+        }
+
+
+}
